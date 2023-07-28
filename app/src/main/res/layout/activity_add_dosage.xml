@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mediguardian_app_bg"
+    android:orientation="vertical"
+    tools:context=".AddDosageActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Dosage Details"
+        android:id="@+id/Title"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/navy_blue"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/frequency_time"
+        android:onClick="popTimePicker"
+        android:layout_width="360dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="60dp"
+        android:text="Dose Time"
+        android:textColor="@color/black"
+        android:layout_below="@id/Title"
+        android:background="@drawable/lavender_border_background"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/UploadTabletPerDose"
+        android:hint="Select number of tablet(s) for this dosage"
+        android:padding="12dp"
+        android:layout_below="@id/frequency_time"
+        android:gravity="center_vertical"
+        android:drawableEnd="@drawable/baseline_arrow_drop_down_24"
+        android:background="@drawable/lavender_border"/>
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/DoseSaveButton"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="90dp"
+        android:text="Note: You can custom the number of tablets in edit option"
+        android:textColor="@color/navy_blue"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/DoseSaveButton"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/UploadTabletPerDose"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/navy_blue"
+        android:gravity="center"
+        android:text="Save Dosage"
+        android:textSize="18sp"
+        app:cornerRadius="30dp" />
+</RelativeLayout>

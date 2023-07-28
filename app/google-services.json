@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "804890627866",
+    "firebase_url": "https://mediguardian-173e9-default-rtdb.firebaseio.com",
+    "project_id": "mediguardian-173e9",
+    "storage_bucket": "mediguardian-173e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804890627866:android:f2d1f5153a789ac585a6a3",
+        "android_client_info": {
+          "package_name": "com.example.mediguardianbasic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804890627866-pdd9vfse5o64t8m92ilf1jqi79fusd42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHJm6oBr7tBXnXJYPs-u4BzX3XgEbUVSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804890627866-pdd9vfse5o64t8m92ilf1jqi79fusd42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
